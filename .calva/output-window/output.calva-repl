@@ -1,0 +1,97 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/konevs/dev/study/clojure-noob ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:58118 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉clojure-noob.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉clojure-noob.core꞉> 
+; Jack-in done.
+clj꞉clojure-noob.core꞉> 
+(comp :intelligence :attributes)
+#function[clojure.core/comp/fn--5876]
+clj꞉clojure-noob.core꞉> 
+(def get-intelligence (comp :intelligence :attributes))
+#'clojure-noob.chapter-5/get-intelligence
+clj꞉clojure-noob.chapter-5꞉> 
+(get-intelligence {:attributes {:intelligence 5}})
+5
+clj꞉clojure-noob.chapter-5꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/konevs/dev/study/clojure-noob ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:59976 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉clojure-noob.core꞉> 
+clj꞉clojure-noob.core꞉> 
+; Jack-in done.
+clj꞉clojure-noob.core꞉> 
+#'clojure-noob.chapter-6/great-books
+clj꞉clojure-noob.chapter-6꞉> 
+["East of Eden" "The Glass Bead Game"]
+clj꞉clojure-noob.chapter-6꞉> 
+{great-books #'clojure-noob.chapter-6/great-books}
+clj꞉clojure-noob.chapter-6꞉> 
+#'clojure-noob.chapter-6/great-books
+clj꞉clojure-noob.chapter-6꞉> 
+; Syntax error compiling var at (src/clojure_noob/chapter-6.clj:19:1).
+; Unable to resolve var: user/great-books in this context
+clj꞉clojure-noob.chapter-6꞉> 
+["East of Eden" "The Glass Bead Game"]
+clj꞉clojure-noob.chapter-6꞉> 
+#namespace[cheese.taxonomy]
+clj꞉clojure-noob.chapter-6꞉> 
+cheese.taxonomy
+clj꞉clojure-noob.chapter-6꞉> 
+#namespace[cheese.analysis]
+clj꞉cheese.analysis꞉> 
+#namespace[cheese.taxonomy]
+clj꞉cheese.taxonomy꞉> 
+#'clojure-noob.chapter-6/cheddars
+clj꞉clojure-noob.chapter-6꞉> 
+#namespace[cheese.analysis]
+clj꞉cheese.analysis꞉> 
+["mild" "medium" "strong" "sharp" "extra sharp"]
+clj꞉clojure-noob.chapter-6꞉> 
+#namespace[cheese.analysis]
+clj꞉cheese.analysis꞉> 
+; Syntax error compiling at (src/clojure_noob/chapter-6.clj:1:7992).
+; No such var: cheese.taxonomy/cheddars
+clj꞉clojure-noob.chapter-6꞉> 
+#namespace[cheese.analysis]
+clj꞉cheese.analysis꞉> 
+; Syntax error compiling at (src/clojure_noob/chapter-6.clj:1:7992).
+; No such var: cheese.taxonomy/cheddars
+clj꞉clojure-noob.chapter-6꞉> 
